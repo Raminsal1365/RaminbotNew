@@ -11,30 +11,30 @@
 <h6 dir="rtl"></h6>
 <pre>
 <span>cd $HOME</span>
-<span>git clone https://github.com/TitanTeams/Titanbot</span>
+<span>git clone https://github.com/CoderTM/CliBot</span>
 <span>cd Titanbot</span>
-<span>chmod +x Titan.sh</span>
-<span>./Titan.sh install</span>
-<span>./Titan.sh</span>
+<span>chmod +x CliBot.sh</span>
+<span>./CliBot.sh install</span>
+<span>./CliBot.sh</span>
 </pre>
 <h4 dir="rtl">نصب ربات(روش دوم)
 <br></h4>
 <h6 dir="rtl"></h6>
 <pre>
-<span>cd $HOME && git clone https://github.com/TitanTeams/Titanbot && cd Titanbot && chmod +x Titan.sh && ./Titan.sh install && ./Titan.sh 
+<span>cd $HOME && git clone https://github.com/CoderTM/CliBot && cd CliBot && chmod +x CliBot.sh && ./CliBot.sh install && ./CliBot.sh 
 </span>
 </pre>
 <hr>
 اموزش های بیش تر در کانال
 
-# [اموزش ویدیوی نصب سورس و اتولانچ](https://telegram.me/titantims)
+# [_آموزش نصب سورس_](https://telegram.me/CoderTeam)
 
 
-###  Telegram channel:
+###  *Telegram channel*:
 
-# [Titanteam](https://telegram.me/titantims)
+# [✔CoderTeam](https://telegram.me/titantims)
 
 * * *
-》*Please send us your stars☆ at the top of this page*
+》*ستاره یادتون نره😉*
 
 
