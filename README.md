@@ -1,14 +1,4 @@
-<p 
-    <div align="center">
-    <a href="https://telegram.me/titanteams">
-        <img src="http://upir.ir/951/guest/Untitled-7.png" hspace="10" width="150">
-    </a>
-    <a href="https://telegram.me/mohammadrezajiji">
-        <img src="http://upir.ir/951/guest/Untitled-6.png" width="150">
-    </a>
-</div>
-<a href="https://telegram.me/titanteams"><font size="100">Titanbot v.1</font></a>
-<h3><p dir="rtl">سورس سه زبانه همراه با کلی امکانات فوق العاده :)
+<h3><p dir="rtl">سورس دو زبانه همراه با کلی امکانات فوق العاده :)
 <br>
 <h3 align="right"> <strong></strong>
 </h3>
