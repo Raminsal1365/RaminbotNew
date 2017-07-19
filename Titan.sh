@@ -26,11 +26,11 @@ install() {
 
 function print_logo() {
 	echo -e "\033[38;5;600m"
-	echo -e "                ██                ██████"
-	echo -e "                ██  ██████  ██████  ██"
-	echo -e "██████          ██  ██████  ██  ██  ██  ██████████"
-	echo -e "██      ████  ████  ██      ████    ██  ██  ██  ██"
-	echo -e "██████  ████  ████  ██████  ██  ██  ██  ██  ██  ██"
+	echo -e "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT"
+	echo -e "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII"
+	echo -e "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT"
+	echo -e "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+	echo -e "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN"
 	echo -e ""
 	echo -e "\n\e[36m"
 }
@@ -47,11 +47,11 @@ if [ ! -f ./tg/tgcli ]; then
 
    print_logo
    echo -e "\033[38;5;208m"
-   echo -e "     >>>>        @CODERTEAM                                  "
-   echo -e "     >>>>        @coderteam                                  "
-   echo -e "     >>>>        @Coderteam                                  "
-   echo -e "     >>>>        @CoderTeam                                  "
-   echo -e "     >>>>        @coderTeam                                  "
+   echo -e "     >>>>        @TITANTEAMS                                  "
+   echo -e "     >>>>        @TiTanteams                                  "
+   echo -e "     >>>>        @TitanTeams                                  "
+   echo -e "     >>>>        @TiTAnTeams                                  "
+   echo -e "     >>>>        @titanteams                                  "
    echo -e "\033[0;00m"
    echo -e "\e[36m"
    logo_play
