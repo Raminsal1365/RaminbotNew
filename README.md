@@ -5,7 +5,7 @@
 </span>
 </pre>
 <hr>
-<h3 align="right"> <strong>نصب</strong> 🚀
+<h3 align="right"> <strong> کد نصب</strong> ✨
 <h4 dir="rtl">نصب ربات(روش اول)
 <br></h4>
 <h6 dir="rtl"></h6>
