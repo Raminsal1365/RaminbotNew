@@ -36,11 +36,7 @@ function print_logo() {
 function logo_play() {
     declare -A txtlogo
     seconds="0.010"
-    txtlogo[1]="                ██                 ██████"
-    txtlogo[2]="                ██  ██████  ██████   ██"
-    txtlogo[3]="██████          ██  ██████  ██  ██   ██  ██████████"
-    txtlogo[4]="██      ████  ████  ██      ████     ██  ██  ██  ██"
-    txtlogo[4]="██████  ████  ████  ██████  ██  ██   ██  ██  ██  ██"
+    txtlogo[1]="Telegram Channel: @CoderTeam"
     printf "\e[31m\t"
     for i in ${!txtlogo[@]}; do
         for x in `seq 0 ${#txtlogo[$i]}`; do
