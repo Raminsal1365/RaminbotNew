@@ -1,4 +1,4 @@
---Start By @mohammadrezajiji
+--Start By @devemaximus
 local function run(msg, matches)
 
 if matches[1] == 'kickme' or matches[1] == 'ترک گروه' then
