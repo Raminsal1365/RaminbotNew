@@ -12,7 +12,7 @@
 <pre>
 <span>cd $HOME</span>
 <span>git clone https://github.com/CoderTM/CliBot</span>
-<span>cd Titanbot</span>
+<span>cd CliBot</span>
 <span>chmod +x CliBot.sh</span>
 <span>./CliBot.sh install</span>
 <span>./CliBot.sh</span>
