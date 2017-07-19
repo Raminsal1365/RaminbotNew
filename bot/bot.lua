@@ -1,5 +1,5 @@
--- #titanbot
--- #@titanteams
+-- #CliBot
+-- #@CoderTeam
 
 tdcli = dofile('./tg/tdcli.lua')
 serpent = (loadfile "./libs/serpent.lua")()
