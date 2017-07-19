@@ -1,4 +1,4 @@
---Start By @mohammadrezajiij
+--Start By @devemaximus
 function run(msg,matches)
 
  if msg.content_.text_ == '/mypic' or '!mypic' or '#mypic' or 'عکس من' and msg.reply_to_message_id_ == 0  then
@@ -28,4 +28,4 @@ patterns = {
 },
 run = run
 }
--- @Titanteams
+-- @CoderTeam
