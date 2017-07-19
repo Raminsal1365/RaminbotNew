@@ -25,20 +25,22 @@ install() {
 }
 
 function print_logo() {
-	green "          ____  ____     _____"
-	green "         |  _ )|  _ \   |_   _|___ ____   __  __"
-	green "         |  _ \| |_) )    | |/ .__|  _ \_|  \/  |"
-	green "         |____/|____/     |_|\____/\_____|_/\/\_|"
+	green "                ██                 ██████"
+	green "                ██  ██████  ██████   ██"
+	green "██████          ██  ██████  ██  ██   ██  ██████████"
+	green "██      ████  ████  ██      ████     ██  ██  ██  ██"
+        green "██████  ████  ████  ██████  ██  ██   ██  ██  ██  ██"
 	echo -e "\n\e[0m"
 }
 
 function logo_play() {
     declare -A txtlogo
     seconds="0.010"
-    txtlogo[1]=" ____  ____     _____"
-    txtlogo[2]="|  _ )|  _ \   |_   _|___ ____   __  __"
-    txtlogo[3]="|  _ \| |_) )    | |/ .__|  _ \_|  \/  |"
-    txtlogo[4]="|____/|____/     |_|\____/\_____|_/\/\_|"
+    txtlogo[1]="                ██                 ██████"
+    txtlogo[2]="                ██  ██████  ██████   ██"
+    txtlogo[3]="██████          ██  ██████  ██  ██   ██  ██████████"
+    txtlogo[4]="██      ████  ████  ██      ████     ██  ██  ██  ██"
+    txtlogo[4]="██████  ████  ████  ██████  ██  ██   ██  ██  ██  ██"
     printf "\e[31m\t"
     for i in ${!txtlogo[@]}; do
         for x in `seq 0 ${#txtlogo[$i]}`; do
@@ -53,12 +55,7 @@ function logo_play() {
 
 function beyondteam() {
 	echo -e "\e[0m"
-	green "     >>>>                       We Are Not Attacker                             "
-	green "     >>>>                       We Are Not Alliance                             "
-	white "     >>>>                       We Are Programmer                               "
-	white "     >>>>                       We Are The Best                                 "
-	red   "     >>>>                       We Are Family                                   "
-	red   "     >>>>                       @BeyondTeam                                     "
+	green "     >>>>                       Please join to @CoderTeam Channel                             "
 	echo -e "\e[0m"
 }
 
@@ -77,7 +74,7 @@ update() {
 
 if [ "$1" = "install" ]; then
 	print_logo
-	beyondteam
+	CoderTeam
 	logo_play
 	install
   else
@@ -87,7 +84,7 @@ if [ ! -f ./tg/tgcli ]; then
     exit 1
  fi
 	print_logo
-	beyondteam
+	CoderTeam
 	logo_play
    #sudo service redis-server restart
    ./tg/tgcli -s ./bot/bot.lua -l 1 -E $@
