@@ -1,4 +1,4 @@
---Start By @mohammadrezajiji
+--Start By @devemaximus
 
 function run(msg, matches)
 local url , res = http.request('http://irapi.ir/time')
@@ -11,5 +11,5 @@ return {
   patterns = {"^[!/#](time)$","^(ساعت)$"}, 
 run = run 
 }
--- @Titanteams
+-- @CoderTeam
 
