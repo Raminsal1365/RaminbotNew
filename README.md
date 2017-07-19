@@ -13,15 +13,15 @@
 <span>cd $HOME</span>
 <span>git clone https://github.com/CoderTM/CliBot</span>
 <span>cd CliBot</span>
-<span>chmod +x CliBot.sh</span>
-<span>./CliBot.sh install</span>
-<span>./CliBot.sh</span>
+<span>chmod +x launch.sh</span>
+<span>./launch.sh install</span>
+<span>./launch.sh</span>
 </pre>
 <h4 dir="rtl">نصب ربات(روش دوم)
 <br></h4>
 <h6 dir="rtl"></h6>
 <pre>
-<span>cd $HOME && git clone https://github.com/CoderTM/CliBot && cd CliBot && chmod +x CliBot.sh && ./CliBot.sh install && ./CliBot.sh 
+<span>cd $HOME && git clone https://github.com/CoderTM/CliBot && cd CliBot && chmod +x launch.sh && ./launch.sh install && ./launch.sh 
 </span>
 </pre>
 <hr>
