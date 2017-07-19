@@ -43,4 +43,4 @@ end
 
 return { patterns = { "^[!/#](info)$", "^(اطلاعات من)$", }, run = run }
 
--- @Titanteams
+-- @CoderTeam
