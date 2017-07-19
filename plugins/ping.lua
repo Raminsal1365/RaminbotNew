@@ -1,4 +1,4 @@
-﻿--start by @mohammadrezajiji
+﻿--start by @devemaximus
 local datebase = {
    "من انلاینم وتمام پیام های گروه رو برسی میکنم :)🤖❤️",
   }
@@ -13,5 +13,5 @@ return {
   run = run
 }
 
--- @Titanteams
+-- @CoderTeam
 
