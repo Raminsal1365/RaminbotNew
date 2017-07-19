@@ -22,7 +22,7 @@ do local _ = {
     "write",
     "ping"
   },
-  info_text = "》Titanbot v.1\n\n\n》https://github.com/TitanTeams/Titanbot\n\n》Admins :\n》@mohammadrezajiji 《\n\9\9\n》channel :\n》@Titanteams\n",
+  info_text =  "》CliBot v.1\n\n\n》https://github.com/CoderTM/CliBot\n\n》Admins :\n》@deve_Maximus 《\n\9\9\n》channel :\n》@CoderTeam\n",
   moderation = {
     data = "./data/moderation.json"
   },
