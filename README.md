@@ -32,7 +32,7 @@
 
 ###  *Telegram channel*:
 
-# [✔CoderTeam](https://telegram.me/titantims)
+# [✔CoderTeam](https://telegram.me/CoderTeam)
 
 * * *
 》*ستاره یادتون نره😉*
