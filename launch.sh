@@ -37,7 +37,12 @@ function print_logo() {
 function logo_play() {
     declare -A txtlogo
     seconds="0.010"
-    txtlogo[1]="Telegram Channel: @CoderTeam"
+    txtlogo[1]="   _____               _                 _______   __  __ "
+    txtlogo[2]="  / ____|             | |               |__   __| |  \/  |"
+    txtlogo[3]=" | |        ___     __| |   ___   _ __     | |    | \  / |"
+    txtlogo[4]=" | |       / _ \   / _` |  / _ \ | '__|    | |    | |\/| |"
+    txtlogo[5]=" | |____  | (_) | | (_| | |  __/ | |       | |    | |  | |"
+    txtlogo[6]="  \_____|  \___/   \__,_|  \___| |_|       |_|    |_|  |_|"
     printf "\e[31m\t"
     for i in ${!txtlogo[@]}; do
         for x in `seq 0 ${#txtlogo[$i]}`; do
@@ -52,7 +57,7 @@ function logo_play() {
 
 function beyondteam() {
 	echo -e "\e[0m"
-	green "     >>>>                       join to @CoderTeam Channel                             "
+	green "     >>>>                       join to @CoderTeam                            "
 	echo -e "\e[0m"
 }
 
@@ -71,6 +76,7 @@ update() {
 
 if [ "$1" = "install" ]; then
 	print_logo
+	coderteam
 	logo_play
 	install
   else
@@ -80,6 +86,7 @@ if [ ! -f ./tg/tgcli ]; then
     exit 1
  fi
 	print_logo
+	coderteam
 	logo_play
    #sudo service redis-server restart
    ./tg/tgcli -s ./bot/bot.lua -l 1 -E $@
