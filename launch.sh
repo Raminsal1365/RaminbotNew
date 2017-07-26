@@ -25,11 +25,12 @@ install() {
 }
 
 function print_logo() {
-	green "                ██                 ██████"
-	green "                ██  ██████  ██████   ██"
-	green "██████          ██  ██████  ██  ██   ██  ██████████"
-	green "██      ████  ████  ██      ████     ██  ██  ██  ██"
-        green "██████  ████  ████  ██████  ██  ██   ██  ██  ██  ██"
+	green "   _____               _                 _______   __  __ "
+	green "  / ____|             | |               |__   __| |  \/  |"
+	green " | |        ___     __| |   ___   _ __     | |    | \  / |"
+	green " | |       / _ \   / _` |  / _ \ | '__|    | |    | |\/| |"
+        green " | |____  | (_) | | (_| | |  __/ | |       | |    | |  | |"
+        green "  \_____|  \___/   \__,_|  \___| |_|       |_|    |_|  |_|"
 	echo -e "\n\e[0m"
 }
 
@@ -51,7 +52,7 @@ function logo_play() {
 
 function beyondteam() {
 	echo -e "\e[0m"
-	green "     >>>>                       Please join to @CoderTeam Channel                             "
+	green "     >>>>                       join to @CoderTeam Channel                             "
 	echo -e "\e[0m"
 }
 
