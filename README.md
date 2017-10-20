@@ -11,7 +11,7 @@
 <h6 dir="rtl"></h6>
 <pre>
 <span>cd $HOME</span>
-<span>git clone https://github.com/CoderTM/CliBot</span>
+<span>git clone https://github.com/Raminsal1365/RaminbotNew</span>
 <span>cd CliBot</span>
 <span>chmod +x launch.sh</span>
 <span>./launch.sh install</span>
@@ -21,20 +21,20 @@
 <br></h4>
 <h6 dir="rtl"></h6>
 <pre>
-<span>cd $HOME && git clone https://github.com/CoderTM/CliBot && cd CliBot && chmod +x launch.sh && ./launch.sh install && ./launch.sh 
+<span>cd $HOME && git clone https://github.com/Raminsal1365/RaminbotNew && cd CliBot && chmod +x launch.sh && ./launch.sh install && ./launch.sh 
 </span>
 </pre>
 <hr>
 اموزش های بیش تر در کانال
 
-# [_آموزش نصب سورس_](https://telegram.me/CoderTeam)
+# [_آموزش نصب سورس_](https://telegram.me/raminsalbot)
 
 
 ###  *Telegram channel*:
 
-# [✔CoderTeam](https://telegram.me/CoderTeam)
+# [✔raminsalbot](https://telegram.me/raminsalofficial)
 
 * * *
-》*ستاره یادتون نره😉*
+
 
 
